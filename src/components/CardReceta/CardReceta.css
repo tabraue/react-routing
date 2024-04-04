@@ -1,0 +1,39 @@
+.meal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card details {
+    margin-top: 10px;
+}
+
+.card details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.meal-name {
+    color: var(--darkpink);
+    padding: 10px;
+}
